@@ -14,6 +14,15 @@ export default function List() {
                     )
                 })
             }
+            {/* <Button color="blue"/> */}
+        </div>
+    )
+}
+
+function Button(props) {
+    return (
+        <div>
+            <button style={{backgroundColor: props.color, width: "60px", height: "30px", border: "0", borderRadius: "3px"}}>버튼</button>
         </div>
     )
 }
